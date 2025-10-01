@@ -1,0 +1,21 @@
+nav{ /*nav é o nome do elemento HTML que recebe esse estilo*/
+    background-color: #283618;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* esse código só altera o estilo da ul que é filha de nav*/
+nav ul{
+    display: flex; /*esse código muda o comportamento da caixa*/
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.7rem;
+}
+
+img{
+    width: 2rem;
+}
